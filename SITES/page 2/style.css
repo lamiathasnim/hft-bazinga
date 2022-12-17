@@ -1,0 +1,74 @@
+* {box-sizing: border-box;}
+
+
+/* Style the input container */
+
+.container{
+    background-color: #aacbff ;
+    margin-top: 100px;
+    margin-left: 36%;
+    display: flex;
+    justify-content: center;
+    align-items : center;
+    width: 25%;
+    padding: 20px;
+    border-radius: 20px;
+    transform: translateX(-10rem);
+    transform: translateY(6rem);
+}
+.input-container {
+  display: flex;
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 10px;
+  background:#fff;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body{
+    background-image: url(./tw.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:100px 200px ;
+    transform: translateX(20rem);
+}
+h2{
+  text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+  width: 200px;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color:#027dfd;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 210px;
+  opacity: 0.9;
+  margin: 50px;
+  transform:translateX(2 rem);
+}
+
+.buttton:hover {
+  opacity: 1;
+}
